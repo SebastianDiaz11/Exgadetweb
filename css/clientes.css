@@ -1,0 +1,117 @@
+body {
+      font-family: "Poppins", sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      text-align: center;
+      color: #003F6B;
+      margin-bottom: 25px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: 500;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      background: #F9C031;
+      border: none;
+      padding: 12px;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #D89A1E;
+    }
+
+    .msg {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .ok {
+      background: #e6f7e6;
+      color: #2c662d;
+    }
+
+    .error {
+      background: #fff3cd;
+      color: #856404;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+
+    /* 🌙 MODO OSCURO */
+    body.dark-mode {
+      background: #121212;
+      color: #f5f5f5;
+    }
+
+    body.dark-mode main {
+      background: #1e1e1e;
+      color: #f5f5f5;
+      box-shadow: 0 3px 10px rgba(255, 255, 255, 0.05);
+    }
+
+    body.dark-mode h1 {
+      color: #ffde59;
+    }
+
+    body.dark-mode input,
+    body.dark-mode select,
+    body.dark-mode textarea {
+      background: #2b2b2b;
+      color: #fff;
+      border: 1px solid #444;
+    }
+
+    body.dark-mode button {
+      background: #F9C031;
+      color: #000;
+    }

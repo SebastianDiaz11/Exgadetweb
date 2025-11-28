@@ -1,0 +1,105 @@
+body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        .perfil-container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .perfil-container h1 {
+            margin-bottom: 20px;
+            color: #222;
+            font-size: 24px;
+        }
+
+        .foto-actual {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #F9C031;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        input[type="file"] {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 6px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .actualizar {
+            background: #F9C031;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .actualizar:hover {
+            background: #d89a1e;
+        }
+
+        .exito {
+            background: #e1f9e1;
+            color: #2d7a2d;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .error {
+            background: #fde1e1;
+            color: #a12d2d;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        a.volver {
+            display: inline-block;
+            margin-top: 20px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a.volver:hover {
+            text-decoration: underline;
+        }
+
+        /* Modo oscuro */
+        body.dark-mode {
+            background: #1e1e1e;
+            color: #f1f1f1;
+        }
+
+        body.dark-mode .perfil-container {
+            background: #2c2c2c;
+            color: #f1f1f1;
+        }
+
+        body.dark-mode a.volver {
+            color: #f1f1f1;
+        }

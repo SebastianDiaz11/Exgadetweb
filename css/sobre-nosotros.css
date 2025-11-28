@@ -1,0 +1,350 @@
+:root {
+      --color-principal: #fbc735;
+      --color-principal-hover: #d9a62a;
+      --bg-claro: #f9f9f9;
+      --bg-oscuro: #1f2937;
+      --texto-claro: #333;
+      --texto-oscuro: #ddd;
+    }
+
+    /* ------------------ */
+    /* Secciones alternadas */
+    /* ------------------ */
+    .info-section {
+      padding: 60px 10%;
+      background: var(--bg-claro);
+    }
+
+    .info-container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+
+    .info-container img {
+      width: 50%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-text {
+      flex: 1;
+    }
+
+    .info-text h2 {
+      color: var(--color-principal);
+      margin-bottom: 15px;
+    }
+
+    .info-text p {
+      line-height: 1.6;
+      color: var(--texto-claro);
+    }
+
+    .info-container.right {
+      flex-direction: row-reverse;
+    }
+
+    /* ------------------ */
+    /* Misión y Visión */
+    /* ------------------ */
+    .mision-vision {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      padding: 60px 10%;
+      background: #fff7e0;
+    }
+
+    .mv-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      flex: 1;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform .3s;
+    }
+
+    .mv-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .mv-card i {
+      font-size: 40px;
+      color: var(--color-principal);
+      margin-bottom: 15px;
+    }
+
+    .mv-card h2 {
+      margin-bottom: 10px;
+      color: var(--texto-claro);
+    }
+
+    .mv-card p {
+      color: var(--texto-claro);
+    }
+
+    /* ------------------ */
+    /* Clientes carrusel */
+    /* ------------------ */
+    .clientes {
+      text-align: center;
+      padding: 60px 10%;
+      background: var(--bg-claro);
+      overflow: hidden;
+    }
+
+    .clientes h2 {
+      color: var(--color-principal);
+      margin-bottom: 30px;
+    }
+
+    .carrusel-clientes {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .carrusel-track {
+      display: flex;
+      gap: 60px;
+      will-change: transform;
+    }
+
+    .carrusel-track img {
+      height: 80px;
+      object-fit: contain;
+      transition: transform .3s;
+    }
+
+    .carrusel-track img:hover {
+      transform: scale(1.1);
+    }
+
+    /* -------------------- */
+    /* 📱 Responsividad */
+    /* -------------------- */
+    @media (max-width: 1024px) {
+      .carrusel-track {
+        gap: 40px;
+        animation-duration: 25s;
+        /* más rápido en tablets */
+      }
+
+      .carrusel-track img {
+        height: 80px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .carrusel-track {
+        gap: 30px;
+        animation-duration: 20s;
+      }
+
+      .carrusel-track img {
+        height: 60px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .clientes {
+        padding: 40px 5%;
+      }
+
+      .carrusel-track {
+        gap: 20px;
+        animation-duration: 15s;
+        /* un poco más rápido en móviles */
+      }
+
+      .carrusel-track img {
+        height: 45px;
+      }
+    }
+
+    /* ------------------ */
+    /* Diferenciales */
+    /* ------------------ */
+    .diferenciales {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      padding: 60px 10%;
+      background: #fff;
+    }
+
+    .dif-card {
+      background: var(--bg-claro);
+      padding: 25px;
+      border-radius: 12px;
+      flex: 1;
+      text-align: center;
+      transition: box-shadow .3s;
+    }
+
+    .dif-card:hover {
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .dif-card h2 {
+      color: var(--color-principal);
+      margin-bottom: 15px;
+    }
+
+    .dif-card p {
+      color: var(--texto-claro);
+    }
+
+    /* ==========================================================
+   📱 TABLET – Hasta 992px (2 columnas)
+   ========================================================== */
+@media (max-width: 992px) {
+
+    .diferenciales {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 8%;
+        gap: 20px;
+    }
+
+    .dif-card {
+        padding: 22px;
+    }
+
+    .dif-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .dif-card p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+/* ==========================================================
+   📱 CELULAR GRANDE – Hasta 768px (1 columna)
+   ========================================================== */
+@media (max-width: 768px) {
+
+    .diferenciales {
+        grid-template-columns: 1fr;
+        padding: 45px 6%;
+        gap: 20px;
+    }
+
+    .dif-card {
+        padding: 20px;
+    }
+
+    .dif-card h2 {
+        font-size: 1.3rem;
+    }
+
+    .dif-card p {
+        font-size: 0.95rem;
+    }
+}
+
+/* ==========================================================
+   📱 CELULAR MEDIANO – Hasta 576px
+   ========================================================== */
+@media (max-width: 576px) {
+
+    .dif-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .dif-card p {
+        font-size: 0.9rem;
+    }
+
+    .diferenciales {
+        padding: 40px 5%;
+    }
+}
+
+/* ==========================================================
+   📱 CELULAR CHICO – Hasta 420px
+   ========================================================== */
+@media (max-width: 420px) {
+
+    .dif-card {
+        padding: 18px;
+        border-radius: 10px;
+    }
+
+    .dif-card h2 {
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+
+    .dif-card p {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+
+    .diferenciales {
+        padding: 35px 4%;
+        gap: 18px;
+    }
+}
+
+    /* ------------------ */
+    /* Responsividad */
+    /* ------------------ */
+    @media (max-width: 900px) {
+      .info-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .info-container.right {
+        flex-direction: column;
+      }
+
+      .info-container img {
+        width: 100%;
+      }
+
+      .mision-vision,
+      .diferenciales {
+        flex-direction: column;
+      }
+    }
+
+    /* ------------------ */
+    /* Modo oscuro */
+    /* ------------------ */
+    body.dark-mode .info-section,
+    body.dark-mode .clientes,
+    body.dark-mode .diferenciales {
+      background: var(--bg-oscuro);
+    }
+
+    body.dark-mode .info-text p,
+    body.dark-mode .mv-card p,
+    body.dark-mode .dif-card p {
+      color: var(--texto-oscuro);
+    }
+
+    body.dark-mode .mv-card {
+      background: #2c2c2c;
+      box-shadow: none;
+    }
+
+    body.dark-mode .mv-card h2,
+    body.dark-mode .dif-card h2 {
+      color: var(--color-principal);
+    }
+
+    body.dark-mode .dif-card {
+      background: #2c2c2c;
+      box-shadow: none;
+    }
+
+    body.dark-mode .clientes h2,
+    body.dark-mode .info-text h2 {
+      color: var(--color-principal);
+    }

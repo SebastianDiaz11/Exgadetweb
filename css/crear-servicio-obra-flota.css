@@ -1,0 +1,316 @@
+body {
+            font-family: "Poppins", sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            background: #fff;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #003f6b;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        select,
+        input,
+        textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-family: inherit;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background: #003f6b;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #005a9c;
+        }
+
+        .btn-volver {
+            display: inline-block;
+            background: #003f6b;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            transition: background 0.2s ease;
+        }
+
+        .btn-volver:hover {
+            background: #005a9c;
+        }
+
+        .mensaje {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #003f6b;
+            color: #fff;
+        }
+
+        td i {
+            font-size: 20px;
+        }
+
+        img {
+            border-radius: 6px;
+        }
+
+        .acciones a {
+            text-decoration: none;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin: 0 3px;
+        }
+
+        .editar {
+            background: #fbc735;
+            color: #000;
+        }
+
+        .eliminar {
+            background: #e74c3c;
+            color: #fff;
+        }
+
+        .acciones a:hover {
+            opacity: 0.8;
+        }
+
+         /* 🌙 MODO OSCURO */
+        body.dark-mode {
+            background: #121212;
+            color: #eaeaea;
+        }
+
+        body.dark-mode .contenedor {
+            background: #1e1e1e;
+            box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+        }
+
+        body.dark-mode h2 {
+            color: #fbc735;
+        }
+
+        body.dark-mode label {
+            color: #ddd;
+        }
+
+        body.dark-mode select,
+        body.dark-mode input,
+        body.dark-mode textarea {
+            background: #2a2a2a;
+            border: 1px solid #444;
+            color: #fff;
+        }
+
+        body.dark-mode select:focus,
+        body.dark-mode input:focus,
+        body.dark-mode textarea:focus {
+            outline: none;
+            border-color: #fbc735;
+        }
+
+        body.dark-mode button {
+            background: #fbc735;
+            color: #000;
+        }
+
+        body.dark-mode button:hover {
+            background: #ffdb5c;
+        }
+
+        body.dark-mode .btn-volver {
+            background: #fbc735;
+        }
+
+        body.dark-mode .btn-volver:hover {
+            background: #ffdb5c;
+        }
+
+        body.dark-mode table {
+            background: #1e1e1e;
+            color: #eaeaea;
+            border-color: #333;
+        }
+
+        body.dark-mode th {
+            background: #fbc735;
+            color: #000;
+        }
+
+        body.dark-mode td {
+            border-color: #333;
+        }
+
+        body.dark-mode .editar {
+            background: #fbc735;
+            color: #000;
+        }
+
+        body.dark-mode .eliminar {
+            background: #e74c3c;
+        }
+
+        /* ==========================================================
+   📱 RESPONSIVE – TABLET (≤ 992px)
+   ========================================================== */
+
+@media (max-width: 992px) {
+
+    .contenedor {
+        max-width: 700px;
+        padding: 20px;
+    }
+
+    table th,
+    table td {
+        padding: 8px;
+    }
+}
+
+/* ==========================================================
+   📱 RESPONSIVE – CELULAR GRANDE (≤ 768px)
+   ========================================================== */
+
+@media (max-width: 768px) {
+
+    .contenedor {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    /* Hacer la tabla scrolleable horizontal */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    td i {
+        font-size: 18px;
+    }
+
+    .acciones a {
+        padding: 4px 8px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ==========================================================
+   📱 CELULAR MEDIANO (≤ 576px)
+   ========================================================== */
+
+@media (max-width: 576px) {
+
+    .contenedor {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    button,
+    .btn-volver {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    textarea,
+    input,
+    select {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+/* ==========================================================
+   📱 CELULAR CHICO (≤ 420px)
+   ========================================================== */
+
+@media (max-width: 420px) {
+
+    .contenedor {
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .acciones a {
+        font-size: 0.8rem;
+        padding: 4px 6px;
+    }
+
+    td,
+    th {
+        font-size: 0.85rem;
+    }
+
+    td i {
+        font-size: 16px;
+    }
+}

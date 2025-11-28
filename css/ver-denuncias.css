@@ -1,0 +1,199 @@
+body {
+      font-family: "Poppins", sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contenedor {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #003F6B;
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+    }
+
+    .acciones {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: #F9C031;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s;
+      margin: 0 5px;
+    }
+
+    .btn:hover {
+      background: #e0aa25;
+    }
+
+    .btn-danger {
+      background: #d9534f;
+    }
+
+    .btn-danger:hover {
+      background: #c9302c;
+    }
+
+    .sugerencia {
+      background: #fafafa;
+      border-left: 5px solid #F9C031;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    .sugerencia p {
+      margin: 5px 0;
+      color: #333;
+      word-wrap: break-word;
+      line-height: 1.4;
+    }
+
+    .sugerencia .fecha {
+      text-align: right;
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 8px;
+    }
+
+    .btn-eliminar {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #d9534f;
+      color: #fff;
+      border: none;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.3s;
+    }
+
+    .btn-eliminar:hover {
+      background: #c9302c;
+    }
+
+    /* 🌙 Dark mode */
+    body.dark-mode {
+      background: #0f0f0f;
+      color: #fff8d1;
+    }
+
+    body.dark-mode h2 {
+      color: #ffde59;
+    }
+
+    body.dark-mode .contenedor {
+      background: #1a1a1a;
+      color: #fff8d1;
+      border: 1px solid #333;
+      box-shadow: 0 0 12px rgba(255,255,255,0.05);
+    }
+
+    body.dark-mode .sugerencia {
+      background: #2a2a2a;
+      border-left-color: #ffde59;
+      color: #fff8d1;
+    }
+
+    body.dark-mode .sugerencia .fecha {
+      color: #bbb;
+    }
+
+    body.dark-mode .sugerencia p {
+      color: white;
+    }
+
+    /* 📱 Responsive design */
+    @media (max-width: 900px) {
+      .contenedor {
+        margin: 30px 20px;
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      .sugerencia {
+        padding: 12px;
+      }
+
+      .btn {
+        padding: 9px 14px;
+        font-size: 15px;
+      }
+
+      .btn-eliminar {
+        font-size: 12px;
+        padding: 5px 8px;
+      }
+
+      .sugerencia p {
+        font-size: 0.95rem;
+      }
+
+      .sugerencia .fecha {
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contenedor {
+        margin: 20px 10px;
+        padding: 15px;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      .btn {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        text-align: center;
+      }
+
+      .btn-eliminar {
+        position: static;
+        display: block;
+        margin: 10px auto 5px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .sugerencia {
+        padding: 10px;
+      }
+
+      .sugerencia p {
+        font-size: 0.9rem;
+      }
+
+      .sugerencia .fecha {
+        text-align: center;
+        font-size: 0.8rem;
+      }
+    }

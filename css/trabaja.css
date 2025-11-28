@@ -1,0 +1,173 @@
+:root {
+      --color-principal: #fbc735;
+      --color-principal-hover: #d9a62a;
+      --fondo-claro: #f9f9f9;
+      --fondo-oscuro: #1e1e1e;
+      --tarjeta-claro: #fff;
+      --tarjeta-oscuro: #2c2c2c;
+      --texto-claro: #1f2937;
+      --texto-oscuro: #f1f1f1;
+      --texto-secundario: #ccc;
+      --borde-claro: #ccc;
+      --borde-oscuro: #444;
+    }
+
+    /* ===== ENCABEZADO ===== */
+    .trabaja-header {
+      text-align: center;
+      padding: 40px 20px;
+      background: var(--fondo-claro);
+    }
+
+    .trabaja-header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: var(--texto-claro);
+    }
+
+    .trabaja-header p {
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    /* ===== FORMULARIO ===== */
+    .form-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: var(--tarjeta-claro);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .form-container form div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-container form div:nth-child(6),
+    .form-container form div:nth-child(7) {
+      grid-column: 1 / 3;
+    }
+
+    .form-container label {
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: var(--texto-claro);
+    }
+
+    .form-container input,
+    .form-container select,
+    .form-container textarea,
+    .form-container button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: 1px solid var(--borde-claro);
+      box-sizing: border-box;
+      transition: border 0.3s ease, background 0.3s ease, color 0.3s ease;
+    }
+
+    .form-container textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .form-container input[type="file"] {
+      background: #f4f4f4;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .form-container input:focus,
+    .form-container select:focus,
+    .form-container textarea:focus {
+      border: 1px solid var(--color-principal);
+      outline: none;
+    }
+
+    .form-container button {
+      background: var(--color-principal);
+      color: var(--texto-claro);
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s;
+      grid-column: 1 / 3;
+    }
+
+    .form-container button:hover {
+      background: var(--color-principal-hover);
+      transform: scale(1.05);
+    }
+
+    .mensaje {
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: var(--color-principal);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .form-container form {
+        grid-template-columns: 1fr;
+      }
+
+      .form-container form div:nth-child(6),
+      .form-container form div:nth-child(7),
+      .form-container button {
+        grid-column: 1;
+      }
+    }
+
+    /* ===== MODO OSCURO ===== */
+    body.dark-mode {
+      background: var(--fondo-oscuro);
+      color: var(--texto-oscuro);
+    }
+
+    body.dark-mode .trabaja-header {
+      background: #2a2a2a;
+    }
+
+    body.dark-mode .trabaja-header h1,
+    body.dark-mode .trabaja-header p {
+      color: var(--texto-oscuro);
+    }
+
+    body.dark-mode .form-container {
+      background: var(--tarjeta-oscuro);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    body.dark-mode .form-container label {
+      color: var(--texto-oscuro);
+    }
+
+    body.dark-mode .form-container input,
+    body.dark-mode .form-container select,
+    body.dark-mode .form-container textarea {
+      background: #333;
+      color: var(--texto-oscuro);
+      border: 1px solid var(--borde-oscuro);
+    }
+
+    body.dark-mode .form-container input[type="file"] {
+      background: #444;
+    }
+
+    body.dark-mode .form-container button {
+      color: #000;
+    }
+
+    body.dark-mode .mensaje {
+      color: var(--color-principal);
+    }

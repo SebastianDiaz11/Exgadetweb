@@ -1,0 +1,295 @@
+/* ==========================================================
+   🎨 VARIABLES DE COLOR
+   ========================================================== */
+        :root {
+            --color-principal: #fbc735;
+            --color-principal-hover: #d9a62a;
+        }
+
+        /* ==========================================================
+   ✉️ SECCIÓN CONTACTO
+   ========================================================== */
+        .contacto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:
+                linear-gradient(rgba(56, 67, 80, 0.8), rgba(125, 135, 145, 0.8)),
+                url('../imagenes/contacto/fondo-contacto.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            transition: background 0.3s ease;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            padding: 20px;
+            gap: 10px;
+            width: 1000px;
+        }
+
+        .box-info {
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .box-info>h1 {
+            text-align: left;
+            letter-spacing: 5px;
+            color: var(--color-principal);
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .links>a {
+            text-decoration: none;
+            width: 40px;
+            height: 40px;
+            background: var(--color-principal);
+            text-align: center;
+            border-radius: 50%;
+            transition: .2s;
+        }
+
+        .links>a>i {
+            color: #fff;
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 15px;
+        }
+
+        .input-box {
+            position: relative;
+        }
+
+        .input-box>input,
+        .input-box>textarea {
+            width: 100%;
+            outline: none;
+            background: rgba(255, 255, 255, 0.1);
+            border: 3px solid transparent;
+            color: #fff;
+            transition: .3s;
+            box-sizing: border-box;
+        }
+
+        .input-box>textarea {
+            height: 100px;
+            max-height: 300px;
+            min-height: 200px;
+        }
+
+        .input-box>input {
+            height: 40px;
+        }
+
+        .input-box>input::placeholder,
+        .input-box>textarea::placeholder {
+            color: #a3a3a3;
+        }
+
+        .input-box>input:focus,
+        .input-box>textarea:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-bottom: 3px solid var(--color-principal);
+            color: #fff;
+        }
+
+        .input-box>i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            color: rgba(255, 255, 255, 0.3);
+            transition: .3s;
+        }
+
+        .input-box>input:focus~i {
+            color: var(--color-principal);
+        }
+
+        form>button {
+            width: 100%;
+            padding: 12px;
+            background: var(--color-principal);
+            color: #1F2937;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background .3s ease, transform .2s;
+        }
+
+        form>button:hover,
+        .links>a:hover {
+            background: var(--color-principal-hover);
+            transform: scale(1.05);
+        }
+
+        .mensaje {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            color: var(--color-principal);
+        }
+
+        /* 🗺️ MAPA DE UBICACIÓN */
+        .mapa {
+            width: 100%;
+            margin-top: 5px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .mapa:hover {
+            transform: scale(1.02);
+        }
+
+        /* 🔢 Quitar flechas del input tipo number */
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+            /* Firefox */
+        }
+
+        /* ==========================================================
+   📱 RESPONSIVE – TABLET (≤ 992px)
+   ========================================================== */
+@media (max-width: 992px) {
+
+    .contacto {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        width: 90%;
+        max-width: 700px;
+        gap: 40px;
+    }
+
+    .box-info {
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .box-info h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        letter-spacing: 3px;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .mapa iframe {
+        width: 100%;
+        height: 260px;
+    }
+}
+
+/* ==========================================================
+   📱 RESPONSIVE – CELULAR GRANDE (≤ 768px)
+   ========================================================== */
+@media (max-width: 768px) {
+
+    .contacto {
+        padding: 40px 0;
+    }
+
+    .box-info h1 {
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+    }
+
+    form {
+        padding: 0 5px;
+    }
+
+    .input-box textarea {
+        min-height: 150px;
+    }
+
+    .links a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .links a i {
+        font-size: 16px;
+        line-height: 35px;
+    }
+}
+
+/* ==========================================================
+   📱 RESPONSIVE – CELULAR MEDIANO (≤ 576px)
+   ========================================================== */
+@media (max-width: 576px) {
+
+    .container {
+        width: 92%;
+        gap: 25px;
+    }
+
+    .box-info h1 {
+        font-size: 1.4rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+/* ==========================================================
+   📱 RESPONSIVE – CELULAR CHICO (≤ 420px)
+   ========================================================== */
+@media (max-width: 420px) {
+
+    .box-info h1 {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .links {
+        gap: 12px;
+    }
+
+    .mapa iframe {
+        height: 200px;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        font-size: 0.9rem;
+    }
+
+    .input-box i {
+        font-size: 14px;
+    }
+}
+
