@@ -343,9 +343,9 @@ require "../php/contador-accidentes.php";
       <div class="botones">
         <a href="perfil.php">Mi perfil</a>
         <a href="reserva.php">Reserva de sala de reunión</a>
-        <a href="incidencias.php">Incidencias</a>
+        <!-- <a href="incidencias.php">Incidencias</a> -->
         <!-- <a href="datos-bot.php">Datos Bot</a> -->
-        <a href="https://exgadet.dyndns.org/(S(c5odmjdjzm44w304n25uhown))/FORMS/LOGIN.aspx?ReturnUrl=%2fFORMS%2fP008_OPERARIOS.aspx">Puntos Operario</a>
+        <!-- <a href="https://exgadet.dyndns.org/(S(c5odmjdjzm44w304n25uhown))/FORMS/LOGIN.aspx?ReturnUrl=%2fFORMS%2fP008_OPERARIOS.aspx">Puntos Operario</a> -->
 
         <?php if (strtoupper($sector) === "RRHH"): ?>
           <a href="ver-denuncias.php">Ver denuncias</a>

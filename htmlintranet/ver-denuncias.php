@@ -44,7 +44,7 @@ $sugerencias = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <?php include './nav.php'; ?>
 
   <div class="contenedor">
-    <h2>📋 Sugerencias Recibidas</h2>
+    <h2>📋 Denuncias Recibidas</h2>
 
     <div class="acciones">
       <a href="usuario.php" class="btn">Volver</a>

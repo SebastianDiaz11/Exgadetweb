@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
       // Remitente y destinatario
       $mail->setFrom('soportesistemas@exgadetsa.com.ar', 'Formulario Proveedores');
-      $mail->addAddress('sistemas@exgadetsa.com.ar', 'Departamento de Compras');
+      $mail->addAddress('compras@exgadetsa.com.ar', 'Departamento de Compras');
       $mail->addReplyTo($email, $nombre);
 
       // 📎 Adjuntar archivo si existe

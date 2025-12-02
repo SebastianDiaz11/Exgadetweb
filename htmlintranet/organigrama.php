@@ -23,7 +23,7 @@ $empleados = [
     ["6060", "PELENDIR ABEL ARIEL", "ALMACENES", "PAÑOLERO", "", ""],
     ["4901", "CASTIÑEIRA GONAZALO HUGO", "ALMACENES", "PAÑOLERO", "", ""],
 
-//COMPRAS
+    //COMPRAS
     ["", "", "COMPRAS", "", "", ""],
     ["46", "BONCOR MARIANO ANDRES", "COMPRAS", "JEFE", "1126086975", "mboncor@exgadetsa.com.ar"],
     ["7678", "DIAZ CAROLINA SALOME", "COMPRAS", "ANALISTA", "1138738430", "csdiaz@exgadetsa.com.ar"],
@@ -31,11 +31,11 @@ $empleados = [
     ["764", "TICONA NADIA MELINA", "COMPRAS", "ANALISTA", "1136184072", "nticona@exgadetsa.com.ar"],
     ["3491", "ANTELO FLORENCIA AGUSTINA", "COMPRAS", "ANALISTA", "1141419887", "fantelo@exgadetsa.com.ar"],
 
-//GERENCIA
+    //GERENCIA
     ["6390", "SIMONI RICARDO NESTOR", "GERENCIA", "PRESIDENTE", "", "rsimoni@exgadetsa.com.ar"],
     ["732", "SIMONI MATIAS", "GERENCIA", "VICEPRESIDENTE", "", "msimoni@exgadetsa.com.ar"],
 
-//GESTION DE FLOTA
+    //GESTION DE FLOTA
     ["", "", "GESTIÓN DE FLOTA", "", "", ""],
     ["7903", "VALDEZ CRISTIAN JOSE", "GESTIÓN DE FLOTA", "JEFE", "1165839670", "cvaldez@exgadetsa.com.ar"],
     ["6892", "LOPEZ AMAYA GONZALO MANUEL", "GESTIÓN DE FLOTA", "ANALISTA", "1169091368", "gmlopez@exgadetsa.com.ar"],
@@ -45,7 +45,7 @@ $empleados = [
     ["395", "GIMENEZ SANTIAGO ANDRES", "GESTIÓN DE FLOTA", "MECANICO", "", ""],
     ["5986", "MATA ADOLFO RAFAEL", "GESTIÓN DE FLOTA", "MECANICO", "", ""],
 
-//MANTENIMIENTO
+    //MANTENIMIENTO
     ["", "", "MANTENIMIENTO", "", "", ""],
     ["3994", "VALENCIA JUAN CARLOS", "MANTENIMIENTO", "SUPERVISOR", "1167664232", "jvalencia@exgadetsa.com.ar"],
     ["5814", "Almada Alvarez Ariel Alberto", "MANTENIMIENTO", "AYUDANTE", "", ""],
@@ -53,28 +53,28 @@ $empleados = [
     ["5120", "Pucheta Luis", "MANTENIMIENTO", "MAQUINISTA", "", ""],
     ["3883", "Tules Liliana Beatriz", "MANTENIMIENTO", "PERSONAL DE MAESTRANZA", "", ""],
 
-//OFICINA TECNICA
-    ["", "", "OFICINA TÉCNICA", "", "", ""],
-    ["7969", "ANTONUCCI LUIS ELIAS", "OFICINA TÉCNICA", "JEFE", "1138609441", "eantonucci@exgadetsa.com.ar"],
+    //PROYECTOS Y OBRA
+    ["", "", "PROYECTOS Y OBRA", "", "", ""],
+    ["7969", "ANTONUCCI LUIS ELIAS", "PROYECTOS Y OBRA", "JEFE", "1138609441", "eantonucci@exgadetsa.com.ar"],
     //RESPONSABLE DEL SERCTOR
-    ["8273", "MIERES NATALIA SOLEDAD", "OFICINA TÉCNICA", "RESPONSABLE DE OFICINA TÉCNICA", "1122813332", "nmieres@exgadetsa.com.ar"],
-    ["5519", "FLORES APAZA ALVARO OMAR", "OFICINA TÉCNICA", "ANALISTA", "1136688687", "aflores@exgadetsa.com.ar"],
-    ["5019", "BLANCO MALENA", "OFICINA TÉCNICA", "ASISTENTE", "1159492810", "mblanco@exgadetsa.com.ar"],
-    ["7713", "FERNANDEZ DAIANA BELEN", "OFICINA TÉCNICA", "CADISTA", "1162676652", "dbfernandez@exgadetsa.com.ar"],
-    ["3360", "LEDESMA LUCIANA BELEN", "OFICINA TÉCNICA", "ANALISTA", "1139272100", "lledesma@exgadetsa.com.ar"],
-    ["6502", "NATALE AGOSTINA", "OFICINA TÉCNICA", "ANALISTA", "1162674226", "anatale@exgadetsa.com.ar"],
+    ["8273", "MIERES NATALIA SOLEDAD", "PROYECTOS Y OBRA", "RESPONSABLE DE OFICINA TÉCNICA", "1122813332", "nmieres@exgadetsa.com.ar"],
+    ["5519", "FLORES APAZA ALVARO OMAR", "PROYECTOS Y OBRA", "ANALISTA", "1136688687", "aflores@exgadetsa.com.ar"],
+    ["5019", "BLANCO MALENA", "PROYECTOS Y OBRA", "ANALISTA", "1159492810", "mblanco@exgadetsa.com.ar"],
+    ["7713", "FERNANDEZ DAIANA BELEN", "PROYECTOS Y OBRA", "CADISTA", "1162676652", "dbfernandez@exgadetsa.com.ar"],
+    ["3360", "LEDESMA LUCIANA BELEN", "PROYECTOS Y OBRA", "ANALISTA", "1139272100", "lledesma@exgadetsa.com.ar"],
+    ["6502", "NATALE AGOSTINA", "PROYECTOS Y OBRA", "ANALISTA", "1162674226", "anatale@exgadetsa.com.ar"],
     //RESPONSABLE DEL SECTOR
-    ["1613", "JULIANO NILO SEBASTIAN", "OFICINA TÉCNICA", "RESPONSABLE DE OBRA", "1126087010", "njuliano@exgadetsa.com.ar"],
-    ["9904", "RUSSO AGUSTIN ANDRES", "OFICINA TÉCNICA", "SUPERVISOR", "1162676457", "arusso@exgadetsa.com.ar"],
-    ["2867", "BALADO JUAN MANUEL", "OFICINA TÉCNICA", "SUPERVISOR", "1162674230", ""],
-    ["1757", "BARRERA MACCHIONE MATEO", "OFICINA TÉCNICA", "SUPERVISOR", "1161812012", "mbarrera@exgadetsa.com.ar"],
-    ["5178", "SMALDONE FERNANDO ADRIAN", "OFICINA TÉCNICA", "CROQUISTA", "1135752431", "fsmaldone@exgadetsa.com.ar"],
+    ["1613", "JULIANO NILO SEBASTIAN", "PROYECTOS Y OBRA", "RESPONSABLE DE OBRA", "1126087010", "njuliano@exgadetsa.com.ar"],
+    ["9904", "RUSSO AGUSTIN ANDRES", "PROYECTOS Y OBRA", "SUPERVISOR", "1162676457", "arusso@exgadetsa.com.ar"],
+    ["2867", "BALADO JUAN MANUEL", "PROYECTOS Y OBRA", "SUPERVISOR", "1162674230", ""],
+    ["1757", "BARRERA MACCHIONE MATEO", "PROYECTOS Y OBRA", "SUPERVISOR", "1161812012", "mbarrera@exgadetsa.com.ar"],
+    ["5178", "SMALDONE FERNANDO ADRIAN", "PROYECTOS Y OBRA", "CROQUISTA", "1135752431", "fsmaldone@exgadetsa.com.ar"],
 
     //RESPONSABLE COMERCIAL
     ["", "", "RESPONSABLE COMERCIAL", "", "", ""],
     ["2376", "PALAZZI JUAN CARLOS", "RESPONSABLE COMERCIAL", "RESPONSABLE COMERCIAL", "1151836279", "jcpalazzi@exgadetsa.com.ar"],
 
-//RRHH
+    //RRHH
     ["", "", "RECURSOS HUMANOS", "", "", ""],
     ["4496", "CAMPESI ROMINA ANALIA", "RECURSOS HUMANOS", "JEFE", "1126086943", "rcampesi@exgadetsa.com.ar"],
     ["9361", "DUARTE IZIAR ITATI", "RECURSOS HUMANOS", "COORDINADOR", "1151845418", "iduarte@exgadetsa.com.ar"],
@@ -84,7 +84,7 @@ $empleados = [
     ["2788", "PADIN AGUSTINA", "RECURSOS HUMANOS", "ANALISTA", "1139196132", "apadin@exgadetsa.com.ar"],
     ["9119", "TOMÉ RIVERO VALERIA", "RECURSOS HUMANOS", "ANALISTA", "1166335132", "vrivero@exgadetsa.com.ar"],
 
-//SISTEMA DE GESTION INTEGRADO
+    //SISTEMA DE GESTION INTEGRADO
     ["", "", "SGI", "", "", ""],
     ["7374", "FONSFRIA DANIELA ALEJANDRA", "SGI", "JEFE", "1161777315", "dfonsfria@exgadetsa.com.ar"],
     ["38", "CESPEDES MELINA ANAHI", "SGI", "TECNICA EN HIGIENE Y SEGURIDAD", "1157131186", "mcespedes@exgadetsa.com.ar"],
@@ -99,7 +99,7 @@ $empleados = [
     ["6269", "PIÑEYRO CABALLERO BRIAN", "SISTEMAS", "DESARROLLADOR FULL STACK", "1161813998", "bpineyro@exgadetsa.com.ar"],
     ["8466", "VERGARA JORGE DANIEL", "SISTEMAS", "SOPORTE TÉCNICO IT", "1149372272", "dvergara@exgadetsa.com.ar"],
 
-//ADMINISTRACION Y FINANZAS
+    //ADMINISTRACION Y FINANZAS
     ["", "", "ADMINISTRACIÓN Y FINANZAS", "", "", ""],
     ["2015", "LOPEZ HERNAN LEANDRO", "ADMINISTRACIÓN Y FINANZAS", "JEFE", "1162676616", "hlopez@exgadetsa.com.ar"],
     ["3881", "CEJAS FLAVIA YANINA ", "ADMINISTRACIÓN Y FINANZAS", "ANALISTA CONTROL FINANCIERO", "1131978040", "fcejas@exgadetsa.com.ar"],
@@ -164,17 +164,19 @@ $empleados = [
     ["9062", "RAMIREZ ROBERTO OSCAR", "MESA DE AYUDA", "ATENCION AL CLIENTE", "1135569283", "rramirez@exgadetsa.com.ar"],
 ];
 
-/* ===================================================================
+/* ============================================
    FUNCIONES AUXILIARES
-   =================================================================== */
+   ============================================ */
 
-function foto($legajo) {
+function foto($legajo)
+{
     if (!ctype_digit($legajo)) return "../imagenesintranet/usuario.jpg";
     $path = "../imagenesintranet/usuarios/" . $legajo . ".jpg";
     return file_exists($path) ? $path : "../imagenesintranet/usuario.jpg";
 }
 
-function nivelCargo($cargo) {
+function nivelCargo($cargo)
+{
     $c = mb_strtoupper(trim($cargo), "UTF-8");
     if (strpos($c, "RESPONSABLE") !== false) return "responsable";
     if (strpos($c, "SUPERVISOR") !== false) return "supervisor";
@@ -182,87 +184,242 @@ function nivelCargo($cargo) {
     return "base";
 }
 
-function esSectorCabecera($emp){
+function esSectorCabecera($emp)
+{
     return empty(trim($emp[0])) &&
-           empty(trim($emp[1])) &&
-           !empty(trim($emp[2])) &&
-           empty(trim($emp[3])) &&
-           empty(trim($emp[4])) &&
-           empty(trim($emp[5]));
+        empty(trim($emp[1])) &&
+        !empty(trim($emp[2])) &&
+        empty(trim($emp[3])) &&
+        empty(trim($emp[4])) &&
+        empty(trim($emp[5]));
 }
 
-/* ===================================================================
-   DETECTAR SECTORES CABECERA
-   =================================================================== */
-
-$sectoresCabecera=[];
-foreach($empleados as $e){
-    if(esSectorCabecera($e)){
-        $sectoresCabecera[]=trim($e[2]);
+/* ============================================
+   SECTORES CABECERA
+   ============================================ */
+$sectoresCabecera = [];
+foreach ($empleados as $e) {
+    if (esSectorCabecera($e)) {
+        $sectoresCabecera[] = trim($e[2]);
     }
 }
 
-/* ===================================================================
+/* ============================================
    AGRUPAR POR SECTOR
-   =================================================================== */
-
-$sectores=[];
-foreach($empleados as $e){
+   ============================================ */
+$sectores = [];
+foreach ($empleados as $e) {
     $sec = trim($e[2]) ?: "SIN SECTOR";
-    if(!isset($sectores[$sec])) $sectores[$sec]=[];
-    $sectores[$sec][]=$e;
+    if (!isset($sectores[$sec])) $sectores[$sec] = [];
+    $sectores[$sec][] = $e;
 }
 
-/* ===================================================================
-   ARMAR ÁRBOLES DE JEFE → RESPONSABLES → EMPLEADOS (SOLO OFICINA TÉCNICA)
-   =================================================================== */
-
-$responsablesOficina = [
-    "8273" => [5519,5019,7713,3360,6502],   // MIERES
-    "1613" => [9904,2867,1757,5178]         // JULIANO
+/* ============================================
+   SUBSECTORES QUE VAN DENTRO DE OPERACIONES
+   ============================================ */
+$subsectoresOperaciones = [
+    "OPERACIONES PROPIO",             // 🔥 nuevo botón propio
+    "ACOMETIDAS",
+    "Contrato de Operaciones Masivas",
+    "PLANIFICACIÓN DE RECORRIDOS",
+    "MESA DE AYUDA"
 ];
 
-$jefes = [];
-$estructura = [];  // Contendrá: jefe → responsables → empleados
-$empleadosAsignados = [];
+/* ============================================
+   ESTRUCTURA DEL ORGANIGRAMA
+   ============================================ */
+$estructura = [];
+$jefeOperaciones = null;
 
-foreach($sectores as $sector => $lista){
+/* ============================================
+   ARMAR ORGANIGRAMA COMPLETO
+   ============================================ */
 
-    if($sector === "GERENCIA") continue;
+foreach ($sectores as $sector => $lista) {
 
-    /* Buscar jefe */
-    $jefe=null;
+    /* ---------------------------------------
+   1) SI ES OPERACIONES → JEFE PRINCIPAL
+   --------------------------------------- */
+    if ($sector === "OPERACIONES") {
 
-    foreach($lista as $emp){
-        if(mb_strtoupper($emp[3])==="JEFE"){
-            $jefe=$emp;
+        // Buscar jefe de OPERACIONES
+        $jefe = null;
+        foreach ($lista as $emp) {
+            if (mb_strtoupper($emp[3]) === "JEFE") {
+                $jefe = $emp;
+                break;
+            }
+        }
+
+        if (!$jefe) continue;
+
+        $jefeOperaciones = $jefe[0];
+
+        // Crear nodo base de OPERACIONES
+        $estructura[$jefeOperaciones] = [
+            "sector"       => "OPERACIONES",
+            "jefe"         => $jefe,
+            "responsables" => [],   // acá van los subsectores
+            "empleados"    => []
+        ];
+
+        // ==============================
+        // CREAR SUBSECTOR: OPERACIONES PROPIO
+        // ==============================
+
+        // 1) Empleados propios (directos del sector)
+        $empleadosPropios = [];
+        foreach ($lista as $emp) {
+            if ($emp[0] === $jefe[0]) continue;     // no incluir al jefe
+            if (trim($emp[1]) === "") continue;     // evitar cabecera vacía
+            $empleadosPropios[] = $emp;
+        }
+
+        // 2) Crear subsector propio como si fuera un responsable más
+        $estructura[$jefeOperaciones]["responsables"]["OPERACIONES_PROPIO"] = [
+            "sector"    => "OPERACIONES PROPIO",
+            "datos"     => $jefe,   // se muestra la card con la foto del jefe
+            "empleados" => $empleadosPropios
+        ];
+
+        continue;
+    }
+
+    /* ---------------------------------------
+       2) SUBSECTORES QUE VAN BAJO OPERACIONES
+       --------------------------------------- */
+    if (in_array($sector, $subsectoresOperaciones)) {
+
+        if (!$jefeOperaciones) continue;
+
+        // Buscar jefe o líder del subsector
+        $jefeSub = null;
+        foreach ($lista as $emp) {
+            if (
+                mb_strtoupper($emp[3]) === "JEFE" ||
+                mb_strtoupper($emp[3]) === "SUPERVISOR" ||
+                mb_strtoupper($emp[3]) === "RESPONSABLE"
+            ) {
+
+                $jefeSub = $emp;
+                break;
+            }
+        }
+
+        if (!$jefeSub) continue;
+
+        // Crear subsector dentro de OPERACIONES
+        $estructura[$jefeOperaciones]["responsables"][$jefeSub[0]] = [
+            "sector"    => $sector,
+            "datos"     => $jefeSub,
+            "empleados" => []
+        ];
+
+        // Cargar empleados del subsector
+        foreach ($lista as $emp) {
+            if ($emp[0] === $jefeSub[0]) continue;
+            if (trim($emp[1]) === "") continue;
+            $estructura[$jefeOperaciones]["responsables"][$jefeSub[0]]["empleados"][] = $emp;
+        }
+
+        continue;
+    }
+
+    /* ---------------------------------------
+       3) ESTRUCTURA ESPECIAL PROYECTOS Y OBRA
+       --------------------------------------- */
+    if ($sector === "PROYECTOS Y OBRA") {
+
+        $responsablesOficina = [
+            "8273" => [5519, 5019, 7713, 3360, 6502],
+            "1613" => [9904, 2867, 1757, 5178]
+        ];
+
+        $jefe = null;
+        foreach ($lista as $emp) {
+            if (mb_strtoupper($emp[3]) === "JEFE") {
+                $jefe = $emp;
+                break;
+            }
+        }
+
+        if (!$jefe) continue;
+
+        $estructura[$jefe[0]] = [
+            "sector"       => $sector,
+            "jefe"         => $jefe,
+            "responsables" => [],
+            "empleados"    => []
+        ];
+
+        $asignados = [];
+
+        foreach ($responsablesOficina as $legResp => $legajosEmpleado) {
+
+            $respData = null;
+            foreach ($lista as $emp) {
+                if ($emp[0] == $legResp) $respData = $emp;
+            }
+            if (!$respData) continue;
+
+            $estructura[$jefe[0]]["responsables"][$legResp] = [
+                "datos"     => $respData,
+                "empleados" => []
+            ];
+
+            foreach ($lista as $emp) {
+                if (in_array((int)$emp[0], $legajosEmpleado)) {
+                    $estructura[$jefe[0]]["responsables"][$legResp]["empleados"][] = $emp;
+                    $asignados[$emp[0]] = true;
+                }
+            }
+        }
+
+        foreach ($lista as $emp) {
+            if ($emp[0] === $jefe[0]) continue;
+            if (isset($asignados[$emp[0]])) continue;
+            if (trim($emp[1]) === "") continue;
+            $estructura[$jefe[0]]["empleados"][] = $emp;
+        }
+
+        continue;
+    }
+
+    /* ---------------------------------------
+       4) SECTORES NORMALES
+       --------------------------------------- */
+
+    $jefe = null;
+    foreach ($lista as $emp) {
+        if (mb_strtoupper($emp[3]) === "JEFE") {
+            $jefe = $emp;
             break;
         }
     }
 
-    if(!$jefe){
-        foreach($lista as $emp){
-            if(strpos(mb_strtoupper($emp[3]),"RESPONSABLE")!==false && trim($emp[1])!==""){
-                $jefe=$emp;
+    if (!$jefe) {
+        foreach ($lista as $emp) {
+            if (
+                strpos(mb_strtoupper($emp[3]), "RESPONSABLE") !== false &&
+                trim($emp[1]) !== ""
+            ) {
+                $jefe = $emp;
                 break;
             }
         }
     }
 
-    if(!$jefe){
-        foreach($lista as $emp){
-            if(trim($emp[1])!==""){
-                $jefe=$emp;
+    if (!$jefe) {
+        foreach ($lista as $emp) {
+            if (trim($emp[1]) !== "") {
+                $jefe = $emp;
                 break;
             }
         }
     }
 
-    if(!$jefe) continue;
+    if (!$jefe) continue;
 
-    $jefes[]=$jefe;
-
-    /* Estructura por defecto */
     $estructura[$jefe[0]] = [
         "sector"       => $sector,
         "jefe"         => $jefe,
@@ -270,61 +427,23 @@ foreach($sectores as $sector => $lista){
         "empleados"    => []
     ];
 
-    /* Si es OFICINA TÉCNICA, creo nivel especial */
-    if($sector === "OFICINA TÉCNICA"){
-
-        foreach($responsablesOficina as $legResp => $listaLegajos){
-
-            /* Buscar datos del responsable */
-            $respData = null;
-            foreach($lista as $emp){
-                if($emp[0] == $legResp) $respData=$emp;
-            }
-            if(!$respData) continue;
-
-            $estructura[$jefe[0]]["responsables"][$legResp] = [
-                "datos"    => $respData,
-                "empleados"=> []
-            ];
-
-            /* Asignar los empleados */
-            foreach($lista as $emp){
-                if(in_array((int)$emp[0], $listaLegajos)){
-                    $estructura[$jefe[0]]["responsables"][$legResp]["empleados"][]=$emp;
-                    $empleadosAsignados[$emp[0]]=true;
-                }
-            }
-        }
-
-        /* Empleados restantes → empleados directos del jefe */
-        foreach($lista as $emp){
-            if($emp[0] === $jefe[0]) continue;
-            if(isset($empleadosAsignados[$emp[0]])) continue;
-            if(trim($emp[1])==="") continue;
-            $estructura[$jefe[0]]["empleados"][]=$emp;
-        }
-
-        continue;
-    }
-
-    /* Sectores normales */
-    foreach($lista as $emp){
-        if($emp[0]===$jefe[0]) continue;
-        if(trim($emp[1])==="") continue;
-
-        $nivel = nivelCargo($emp[3]);
-        $estructura[$jefe[0]]["empleados"][]=$emp;
+    foreach ($lista as $emp) {
+        if ($emp[0] === $jefe[0]) continue;
+        if (trim($emp[1]) === "") continue;
+        $estructura[$jefe[0]]["empleados"][] = $emp;
     }
 }
-// Helper para separar apellido / nombre cuando lo necesitemos
-function separarNombre($nombreCompleto) {
-    $partes = explode(" ", trim($nombreCompleto));
-    $apellido = array_shift($partes);
-    $nombreSolo = implode(" ", $partes);
-    return [$apellido, $nombreSolo];
+
+/* ============================================
+   FUNCION AUXILIAR NOMBRES
+   ============================================ */
+function separarNombre($nombreCompleto)
+{
+    $p = explode(" ", trim($nombreCompleto));
+    $a = array_shift($p);
+    return [$a, implode(" ", $p)];
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -409,26 +528,16 @@ function separarNombre($nombreCompleto) {
             gap: 6px;
         }
 
-/* Scroll para los jefes de área */
-.nivel-scroll {
-    display: flex;
-    gap: 18px;
-    margin-bottom: 15px;
-    padding: 10px;
-    overflow-x: auto;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-}
-
-/* PERO SI ES PARA RESPONSABLES, QUE SE CENTRE Y NO USE SCROLL */
-.responsables-scroll {
-    display: flex;
-    justify-content: center;   /* 🔥 centra horizontalmente */
-    gap: 18px;
-    margin-bottom: 15px;
-    padding: 10px;
-    flex-wrap: wrap;            /* 🔥 permite que bajen si hay 2 o más */
-}
+        /* Scroll para las tarjetas del carrusel superior */
+        .nivel-scroll {
+            display: flex;
+            gap: 18px;
+            margin-bottom: 15px;
+            padding: 10px;
+            overflow-x: auto;
+            white-space: nowrap;
+            scroll-behavior: smooth;
+        }
 
         .nivel-scroll::-webkit-scrollbar {
             height: 8px;
@@ -442,8 +551,17 @@ function separarNombre($nombreCompleto) {
         .nivel-scroll::-webkit-scrollbar-track {
             background: #e4e7eb;
         }
-    </style>
 
+        /* Subsectores centrados */
+        .subsectores {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -461,7 +579,7 @@ function separarNombre($nombreCompleto) {
 
     <h1>👥 Organigrama Institucional</h1>
 
-    <!-- PRESIDENTE -->
+    <!-- PRESIDENTE --> 
     <div class="nivel">
         <?php foreach ($empleados as $e): ?>
             <?php if ($e[3] === "PRESIDENTE"): ?>
@@ -487,157 +605,182 @@ function separarNombre($nombreCompleto) {
         <?php endforeach; ?>
     </div>
 
-    <!-- JEFES DE ÁREA (CARRUSEL POR SECTOR) -->
+    <!-- CARRUSEL DE JEFES DE ÁREA (OPERACIONES ES EL ÚNICO DE ESTOS GRUPOS) -->
     <div class="nivel-scroll">
-        <?php foreach ($estructura as $idJefe => $data): ?>
-            <?php $sector = $data["sector"]; ?>
+        <?php
+        // 1) Mostrar primero OPERACIONES si existe
+        if (isset($estructura[$jefeOperaciones])):
+            $data = $estructura[$jefeOperaciones];
+        ?>
+            <div class="persona jefe-area jefe-desplegable" data-jefe="<?= $jefeOperaciones ?>">
+                <div class="nombre texto-corto" style="font-weight:bold; text-align:center;">
+                    OPERACIONES ▼
+                </div>
+            </div>
+        <?php endif; ?>
+
+        <?php
+        // 2) Mostrar el resto de los sectores (EXCEPTO OPERACIONES)
+        foreach ($estructura as $idJefe => $data):
+            if ($idJefe == $jefeOperaciones) continue;
+        ?>
             <div class="persona jefe-area jefe-desplegable" data-jefe="<?= $idJefe ?>">
                 <div class="nombre texto-corto" style="font-weight:bold; text-align:center;">
-                    <?= $sector ?> ▼
+                    <?= $data["sector"] ?> ▼
                 </div>
             </div>
         <?php endforeach; ?>
     </div>
 
-    <!-- EQUIPOS POR JEFE -->
+
+    <!-- EQUIPOS DE CADA JEFE -->
     <?php foreach ($estructura as $idJefe => $data): ?>
+
         <?php
-            $j = $data["jefe"];
-            $sector = $data["sector"];
-            $responsables = $data["responsables"];
-            $empleadosSector = $data["empleados"];
+        $j = $data["jefe"];
+        $sector = $data["sector"];
+        $responsables = $data["responsables"];
+        $empleadosSector = $data["empleados"];
 
-            // Filtrar empleados directos (que no son responsables)
-            $empleadosDirectos = [];
-            foreach ($empleadosSector as $emp) {
-                if (isset($responsables[$emp[0]])) continue;
-                $empleadosDirectos[] = $emp;
-            }
+        // Empleados directos que no son subsector
+        $empleadosDirectos = [];
+        foreach ($empleadosSector as $emp) {
+            if (isset($responsables[$emp[0]])) continue;
+            $empleadosDirectos[] = $emp;
+        }
 
-            // Agrupar empleados directos por nivel de cargo
-            $grupos = [
-                "responsable" => [],
-                "supervisor"  => [],
-                "coordinador" => [],
-                "base"        => []
-            ];
-            foreach ($empleadosDirectos as $emp) {
-                $nivel = nivelCargo($emp[3]);
-                if (!isset($grupos[$nivel])) $grupos[$nivel] = [];
-                $grupos[$nivel][] = $emp;
-            }
+        // Grupos de cargos
+        $grupos = [
+            "responsable" => [],
+            "supervisor"  => [],
+            "coordinador" => [],
+            "base"        => []
+        ];
+        foreach ($empleadosDirectos as $emp) {
+            $nivel = nivelCargo($emp[3]);
+            $grupos[$nivel][] = $emp;
+        }
         ?>
 
-        <div id="empleados-<?= $idJefe ?>" class="empleados empleados-jefe">
+<div id="empleados-<?= $idJefe ?>" class="empleados empleados-jefe">
 
-            <h3 style="color:#003f6b;">
-                👥 Equipo de <?= $j[1] ?> — Jefe de <?= $sector ?>
-            </h3>
+    <?php if ($j && $sector !== "OPERACIONES"): ?>
+        <!-- Sectores normales: título + tarjeta del jefe --> 
+        <h3 style="color:#003f6b;">
+            👥 Equipo de <?= $j[1] ?> — Jefe de <?= $sector ?>
+        </h3>
 
-            <!-- TARJETA DEL JEFE -->
-            <?php if (!empty(trim($j[1]))): ?>
-                <div class="nivel">
-                    <div class="persona" style="border:2px solid #003f6b;background:#eaf3ff;">
-                        <img src="<?= foto($j[0]) ?>">
-                        <div class="nombre texto-corto"><?= $j[1] ?></div>
-                        <div class="cargo texto-corto"><?= $j[3] ?></div>
+        <div class="nivel">
+            <div class="persona" style="border:2px solid #003f6b;background:#eaf3ff;">
+                <img src="<?= foto($j[0]) ?>">
+                <div class="nombre texto-corto"><?= $j[1] ?></div>
+                <div class="cargo texto-corto"><?= $j[3] ?></div>
 
-                        <div class="info">
-                            <div>
-                                📞
-                                <?php if ($j[4]): ?>
-                                    <a href="https://wa.me/54<?= $j[4] ?>" target="_blank"><?= $j[4] ?></a>
-                                <?php else: ?>
-                                    —
-                                <?php endif; ?>
-                            </div>
-                            <div>
-                                ✉️
-                                <?php if ($j[5]): ?>
-                                    <a href="mailto:<?= $j[5] ?>"><?= $j[5] ?></a>
-                                <?php else: ?>
-                                    —
-                                <?php endif; ?>
-                            </div>
-                        </div>
+                <div class="info">
+                    <div>
+                        📞 <?= $j[4] ? "<a href='https://wa.me/54{$j[4]}' target='_blank'>{$j[4]}</a>" : "—" ?>
+                    </div>
+                    <div>
+                        ✉️ <?= $j[5] ? "<a href='mailto:{$j[5]}'>{$j[5]}</a>" : "—" ?>
                     </div>
                 </div>
-            <?php endif; ?>
-
-<!-- SI ES OFICINA TÉCNICA: MOSTRAR RESPONSABLES COMO FILA CLICKEABLE -->
-<?php if ($sector === "OFICINA TÉCNICA" && !empty($responsables)): ?>
-
-    <!-- RESPONSABLES CENTRADOS -->
-    <div class="nivel" style="margin-top:25px;">
-        <?php foreach ($responsables as $legResp => $infoResp): ?>
-            <?php
-                $r = $infoResp["datos"];
-                list($apResp, $nomResp) = separarNombre($r[1]);
-            ?>
-            <div class="persona jefe-area resp-desplegable"
-                 data-jefe="<?= $idJefe ?>"
-                 data-resp="<?= $legResp ?>"
-                 style="cursor:pointer;">
-                <img src="<?= foto($r[0]) ?>">
-                <div class="nombre texto-corto"><?= $apResp ?></div>
-                <div class="cargo texto-corto"><?= $nomResp ?></div>
-                <div class="cargo texto-corto"><?= $r[3] ?> ▼</div>
             </div>
-        <?php endforeach; ?>
-    </div>
+        </div>
 
-    <!-- EQUIPOS POR RESPONSABLE (SUB-NIVEL) -->
-    <?php foreach ($responsables as $legResp => $infoResp): ?>
-        <?php $emplResp = $infoResp["empleados"]; ?>
+    <?php else: ?>
+         <!-- OPERACIONES: solo título genérico, sin tarjeta del jefe -->
+        <h3 style="color:#003f6b;">
+            👥 Equipo de <?= $sector ?>
+        </h3>
+    <?php endif; ?>
 
-        <div id="empleados-resp-<?= $idJefe ?>-<?= $legResp ?>" class="empleados empleados-resp">
 
-            <h3 style="color:#003f6b; margin-top:25px;">
-                Equipo de <?= $infoResp["datos"][1] ?>
-            </h3>
+            <!-- SUBSECTORES DE OPERACIONES --> 
+            <?php if ($sector === "OPERACIONES" && !empty($responsables)): ?>
 
-            <!-- EMPLEADOS DEL RESPONSABLE -->
-            <?php if (!empty($emplResp)): ?>
-                <div class="nivel">
-                    <?php foreach ($emplResp as $e): ?>
-                        <div class="persona">
-                            <img src="<?= foto($e[0]) ?>">
-                            <div class="nombre texto-corto"><?= $e[1] ?></div>
-                            <div class="cargo texto-corto"><?= $e[3] ?></div>
-
-                            <div class="info">
-                                <div>
-                                    📞 <?= $e[4] ? "<a href='https://wa.me/54{$e[4]}' target='_blank'>{$e[4]}</a>" : "—" ?>
-                                </div>
-                                <div>
-                                    ✉️ <?= $e[5] ? "<a href='mailto:{$e[5]}'>{$e[5]}</a>" : "—" ?>
-                                </div>
-                            </div>
+                <div class="subsectores">
+                    <?php foreach ($responsables as $idResp => $infoResp): ?>
+                        <?php
+                        $r = $infoResp["datos"];
+                        $sectorMostrar = ($idResp === "OPERACIONES_PROPIO")
+                            ? "OPERACIONES PROPIO"
+                            : $infoResp["sector"];
+                        ?>
+                        <div class="persona jefe-area resp-desplegable"
+                            data-jefe="<?= $idJefe ?>" data-resp="<?= $idResp ?>">
+                            <img src="<?= foto($r[0]) ?>">
+                            <div class="nombre texto-corto"><?= $sectorMostrar ?></div>
+                            <div class="cargo texto-corto"><?= $r[3] ?> ▼</div>
                         </div>
                     <?php endforeach; ?>
                 </div>
-            <?php else: ?>
-                <p>No hay empleados asignados a este responsable.</p>
+
+                <!-- Equipos de subsectores --> 
+                <?php foreach ($responsables as $idResp => $infoResp): ?>
+                    <?php $emplResp = $infoResp["empleados"]; ?>
+
+                    <div id="empleados-resp-<?= $idJefe ?>-<?= $idResp ?>" class="empleados empleados-resp">
+                        <h3 style="color:#003f6b; margin-top:25px; text-align:center;">
+                            <?= $infoResp["sector"] ?> — Equipo de <?= $infoResp["datos"][1] ?>
+                        </h3>
+
+                        <div class="nivel">
+                            <?php foreach ($emplResp as $e): ?>
+                                <div class="persona">
+                                    <img src="<?= foto($e[0]) ?>">
+                                    <div class="nombre texto-corto"><?= $e[1] ?></div>
+                                    <div class="cargo texto-corto"><?= $e[3] ?></div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+
+                <?php endforeach; ?>
             <?php endif; ?>
 
-            <!-- 🔥 OPERARIOS (solo visibles dentro del responsable abierto) -->
-            <h3 style="color:#003f6b; margin-top:40px; text-align:center;">
-                👷 Operarios
-            </h3>
+            <!-- RESPONSABLES DE PROYECTOS Y OBRA --> 
+            <?php if ($sector === "PROYECTOS Y OBRA" && !empty($responsables)): ?>
 
-            <div class="nivel" style="margin-bottom:40px;">
-                <div class="persona">
-                    <img src="../imagenesintranet/usuario.jpg">
-                    <div class="cargo texto-corto">OPERARIOS</div>
+                <h3 style="color:#003f6b;text-align:center;margin-top:30px;">Responsables de Oficina Técnica</h3>
+
+                <div class="subsectores">
+                    <?php foreach ($responsables as $idResp => $infoResp): ?>
+                        <?php $r = $infoResp["datos"]; ?>
+                        <div class="persona jefe-area resp-desplegable"
+                            data-jefe="<?= $idJefe ?>" data-resp="<?= $idResp ?>">
+                            <img src="<?= foto($r[0]) ?>">
+                            <div class="nombre texto-corto"><?= $r[1] ?></div>
+                            <div class="cargo texto-corto"><?= $r[3] ?> ▼</div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
-            </div>
 
-        </div>
+                <!-- Equipos por responsable --> 
+                <?php foreach ($responsables as $idResp => $infoResp): ?>
+                    <?php $emplResp = $infoResp["empleados"]; ?>
 
-    <?php endforeach; ?>
-<?php endif; ?>
+                    <div id="empleados-resp-<?= $idJefe ?>-<?= $idResp ?>" class="empleados empleados-resp">
 
-            <!-- EMPLEADOS DIRECTOS DEL JEFE (PARA TODOS LOS SECTORES) -->
+                        <h3 style="color:#003f6b; margin-top:25px;">
+                            Equipo de <?= $infoResp["datos"][1] ?>
+                        </h3>
+
+                        <div class="nivel">
+                            <?php foreach ($emplResp as $e): ?>
+                                <div class="persona">
+                                    <img src="<?= foto($e[0]) ?>">
+                                    <div class="nombre texto-corto"><?= $e[1] ?></div>
+                                    <div class="cargo texto-corto"><?= $e[3] ?></div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+
+                    </div>
+
+                <?php endforeach; ?>
+            <?php endif; ?>
+
+            <!-- EMPLEADOS DIRECTOS DEL JEFE -->
             <?php foreach ($grupos as $nivel => $lista): ?>
                 <?php if (!empty($lista)): ?>
                     <div class="nivel">
@@ -649,20 +792,10 @@ function separarNombre($nombreCompleto) {
 
                                 <div class="info">
                                     <div>
-                                        📞
-                                        <?php if ($e[4]): ?>
-                                            <a href="https://wa.me/54<?= $e[4] ?>" target="_blank"><?= $e[4] ?></a>
-                                        <?php else: ?>
-                                            —
-                                        <?php endif; ?>
+                                        📞 <?= $e[4] ? "<a href='https://wa.me/54{$e[4]}' target='_blank'>{$e[4]}</a>" : "—" ?>
                                     </div>
                                     <div>
-                                        ✉️
-                                        <?php if ($e[5]): ?>
-                                            <a href="mailto:<?= $e[5] ?>"><?= $e[5] ?></a>
-                                        <?php else: ?>
-                                            —
-                                        <?php endif; ?>
+                                        ✉️ <?= $e[5] ? "<a href='mailto:{$e[5]}'>{$e[5]}</a>" : "—" ?>
                                     </div>
                                 </div>
                             </div>
@@ -672,41 +805,47 @@ function separarNombre($nombreCompleto) {
             <?php endforeach; ?>
 
         </div>
+
     <?php endforeach; ?>
 
+    <!-- ============================================
+     SCRIPTS PARA ABRIR/CERRAR SECTORES Y SUBSECTORES
+     ============================================ --> 
     <script>
-        // Toggle por sector (jefe / área)
+        // Abrir/Cerrar Jefe Principal (sector entero)
         document.querySelectorAll(".jefe-desplegable").forEach(j => {
             j.addEventListener("click", () => {
                 const id = j.dataset.jefe;
                 const box = document.getElementById("empleados-" + id);
 
-                // Cerrar todos los equipos de jefe
+                // Cerrar todos los equipos de jefes
                 document.querySelectorAll(".empleados-jefe").forEach(div => {
                     if (div !== box) div.style.display = "none";
                 });
 
-                // Cerrar todos los equipos de responsables
+                // Cerrar todos los responsables también
                 document.querySelectorAll(".empleados-resp").forEach(div => {
                     div.style.display = "none";
                 });
 
+                // Toggle
                 box.style.display = (box.style.display === "block") ? "none" : "block";
             });
         });
 
-        // Toggle por responsable (OFICINA TÉCNICA)
+        // Abrir/Cerrar Subsectores o Responsables (Operaciones / Proyectos)
         document.querySelectorAll(".resp-desplegable").forEach(r => {
             r.addEventListener("click", () => {
                 const idJefe = r.dataset.jefe;
                 const idResp = r.dataset.resp;
                 const box = document.getElementById("empleados-resp-" + idJefe + "-" + idResp);
 
-                // Cerrar otros equipos de responsables
+                // Cerrar otros responsables
                 document.querySelectorAll(".empleados-resp").forEach(div => {
                     if (div !== box) div.style.display = "none";
                 });
 
+                // Toggle
                 box.style.display = (box.style.display === "block") ? "none" : "block";
             });
         });
